@@ -22,9 +22,9 @@ jobs:
       - run:
           name: Push Docker image to DockerHub
           command: |
-            docker login -u charteredcertifications -p dckr_pat_RBlX9prKRjcuPlowNglRw8FezEQ
-            docker tag my-app charteredcertifications/my-app
-            docker push charteredcertifications/my-app
+            docker login -u prabbur -p dckr_pat_0MFBjGw_WU2Jdor2jJGUhIbDBnk
+            docker tag my-app prabbur/test1-app
+            docker push prabbur/test1-app
 
 workflows:
   version: 2
